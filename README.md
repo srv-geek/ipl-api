@@ -90,13 +90,14 @@ Import into Eclipse or IntelliJ as a Maven project.
 
 Update application.properties with your MySQL config:
 
-properties
 spring.datasource.url=jdbc:mysql://localhost:3306/ipl_db
 spring.datasource.username=root
 spring.datasource.password=yourpassword
 
+
 Run the project using your IDE or:
 mvn spring-boot:run
+
 ⚠️ Notes
 Make sure MySQL is running before you start the app.
 
